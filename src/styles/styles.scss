@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.common {
+  width: 1580px;
+  margin: 0 auto;
+}
+
+.commonT {
+  font-size: 1.5rem;
+  line-height: 125%;
+  font-weight: 500;
+  color: #040c0e;
+}
+
+.commonP {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 125%;
+  color: #040c0e;
+  margin: 0;
+}
+
+.descP {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 125%;
+  color: red;
+  text-decoration: line-through;
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1100px) {
+  .common {
+    width: 1040px;
+  }
+
+  .commonT {
+    font-size: 1.25rem !important;
+  }
+
+  .commonP{
+    font-size: 0.85rem !important;
+  }
+
+  .descP {
+    font-size: 1rem !important;
+  }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 768px) {
+  .common {
+    width: 740px;
+  }
+
+  .commonT {
+    font-size: 1.25rem !important;
+  }
+
+  .commonP{
+    font-size: 0.85rem !important;
+  }
+
+  .descP {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .common {
+    width: 300px;
+  }
+}
